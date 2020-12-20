@@ -3,7 +3,7 @@ The following repository contains supplementary material for [1] including scrip
 1) Reconstruction of a 14 bus testcase in which each transmission line and generator is considered for expansion. This testcase is labeled "case_14_expansion.m"
 2) Expansion of a synthetic Eastern Interconnection modified from [4] that decommissions certain generators as well as increases the loading factor in a certain area. This testcase is labeled, "ACTIVSg70k_expansion.raw"
 
-The repository contains two scripts to consider the expansion of the 14 bus testcase. The first script, labeled "14_bus_expansion_knitro.m" considers AC constraints using KNITRO while looking at the expansion and operation of the 14 bus testcase. The second script, labeled "14_bus_expanussion_gurobi.m" considers DC constraints using Gurobi. Both of these scripts are run using Matlab.
+The repository contains two scripts to consider the expansion of the 14 bus testcase. The first script, labeled "knitro_14_bus_example.m" considers AC constraints using KNITRO while looking at the expansion and operation of the 14 bus testcase. The second script, labeled "dc_expansion_14_bus.m" considers DC constraints using Gurobi. Both of these scripts are run using Matlab.
 
 [1]
 
